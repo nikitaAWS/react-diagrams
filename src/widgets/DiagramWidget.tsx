@@ -55,7 +55,7 @@ export class DiagramWidget extends BaseWidget<DiagramProps, DiagramState> {
 		inverseZoom: false,
 		maxNumberPointsPerLink: Infinity, // backwards compatible default
 		smartRouting: false,
-		deleteKeys: [46, 8]
+		deleteKeys: [] //was [46, 8]
 	};
 
 	onKeyUpPointer: (this: Window, ev: KeyboardEvent) => void = null;
